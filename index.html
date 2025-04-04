@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Ado Saint-Just</title>
+    <title>Club Ado de Saint-Just</title>
     <style>
         /* Reset */
         * {
@@ -16,6 +16,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
+            line-height: 1.6;
         }
 
         header {
@@ -29,76 +30,43 @@
             font-size: 36px;
         }
 
-        nav {
-            background-color: #ffffff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #0066cc;
-            padding: 10px 20px;
-            font-size: 16px;
-            margin: 0 10px;
-        }
-
-        nav a:hover {
-            background-color: #0066cc;
-            color: white;
-        }
-
-        .hero {
-            background-image: url('https://www.saintjust34.com/images/club-ado.jpg'); /* Image Club Ado */
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            color: white;
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        .hero h2 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
-
-        .hero p {
-            font-size: 20px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
+        section {
+            max-width: 1000px;
+            margin: 20px auto;
             padding: 20px;
         }
 
-        section {
-            margin: 40px 0;
-        }
-
-        section h2 {
-            font-size: 30px;
+        h2 {
+            font-size: 28px;
             color: #0066cc;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
-        section p {
+        p {
             font-size: 18px;
-            line-height: 1.6;
             margin-bottom: 20px;
         }
 
-        .image-gallery {
+        .activities {
             display: flex;
             gap: 20px;
             margin-bottom: 40px;
+            flex-wrap: wrap;
         }
 
-        .image-gallery img {
+        .activity {
             width: 32%;
+            background-color: #fff;
+            padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .activity img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
 
         footer {
@@ -119,39 +87,70 @@
         <h1>Club Ado de Saint-Just</h1>
     </header>
 
-    <nav>
-        <a href="#accueil">Accueil</a>
-        <a href="#activites">Nos Activités</a>
-        <a href="#contact">Contact</a>
-    </nav>
-
-    <section class="hero">
-        <h2>Réouverture du Club Ado</h2>
-        <p>Le Club Ado de Saint-Just rouvre ses portes pour une nouvelle saison d'activités passionnantes.</p>
+    <section>
+        <h2>Bienvenue au Club Ado de Saint-Just 🎉</h2>
+        <p>Le <strong>Club Ado de Saint-Just</strong> est un lieu dynamique et chaleureux où les jeunes de notre commune peuvent se retrouver, échanger, apprendre et surtout <strong>s'amuser</strong>. Notre mission est de proposer une gamme d'activités adaptées à leurs envies et à leurs passions, tout en créant un environnement sécurisé et accueillant.</p>
     </section>
 
-    <div class="container">
-        <section id="accueil">
-            <h2>Présentation du Club Ado</h2>
-            <p>Le Club Ado de Saint-Just est un espace où les jeunes de la commune peuvent se divertir, apprendre et créer des liens. Il sera ouvert tous les mercredis et vendredis, avec des activités variées adaptées à leurs envies.</p>
-        </section>
+    <section>
+        <h2>Nos Activités 🎨⚽🎮</h2>
+        <p>Au <strong>Club Ado de Saint-Just</strong>, nous avons un large éventail d'activités pour tous les goûts ! Que tu sois créatif, sportif, ou passionné par les nouvelles technologies, il y a forcément une activité pour toi !</p>
 
-        <section id="activites">
-            <h2>Nos Activités</h2>
-            <p>Le Club Ado propose diverses activités, allant des ateliers créatifs aux sports collectifs, pour que chaque jeune trouve son bonheur. Nous avons aussi des sorties et des événements spéciaux tout au long de l'année.</p>
-
-            <div class="image-gallery">
-                <img src="https://www.saintjust34.com/images/club-ado-activite1.jpg" alt="Activité 1">
-                <img src="https://www.saintjust34.com/images/club-ado-activite2.jpg" alt="Activité 2">
-                <img src="https://www.saintjust34.com/images/club-ado-activite3.jpg" alt="Activité 3">
+        <div class="activities">
+            <div class="activity">
+                <h3>Ateliers créatifs 🎨</h3>
+                <p>Peinture, dessin, sculpture… Laisse libre cours à ton imagination et explore de nouvelles formes d'art.</p>
+                <img src="https://www.saintjust34.com/images/club-ado-activite1.jpg" alt="Atelier créatif">
             </div>
-        </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Pour plus d'informations, contactez-nous au <strong>06 09 18 42 36</strong> ou par email à <strong>club.ado@saintjust34.com</strong>.</p>
-        </section>
-    </div>
+            <div class="activity">
+                <h3>Sports et loisirs 🏀⚽</h3>
+                <p>Football, basketball, danse, sports en équipe… Viens t'amuser tout en restant actif !</p>
+                <img src="https://www.saintjust34.com/images/club-ado-activite2.jpg" alt="Activité sportive">
+            </div>
+
+            <div class="activity">
+                <h3>Jeux vidéo 🎮</h3>
+                <p>Des sessions de jeux vidéo avec des consoles de dernière génération pour les fans de gaming.</p>
+                <img src="https://www.saintjust34.com/images/club-ado-activite3.jpg" alt="Jeux vidéo">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Des Moments de Partage et de Détente 🤝💬</h2>
+        <p>Le <strong>Club Ado de Saint-Just</strong> n'est pas seulement un lieu où on pratique des activités, c'est aussi un endroit où les jeunes peuvent <strong>se rencontrer</strong>, échanger et créer des liens d'amitié durables. C'est un espace où chacun peut être soi-même, en toute liberté.</p>
+        <p>Les animateurs sont là pour accompagner les jeunes, écouter leurs idées et leurs projets, et veiller à ce que tout se passe dans une ambiance positive et respectueuse.</p>
+    </section>
+
+    <section>
+        <h2>Horaires d'Ouverture ⏰</h2>
+        <p>Le Club Ado est ouvert à tous les jeunes de la commune ! Nous proposons des horaires adaptés à ton emploi du temps.</p>
+        <ul>
+            <li><strong>Le mercredi 🕑</strong> : de 14h à 18h</li>
+            <li><strong>Le vendredi 🕓</strong> : de 16h à 20h</li>
+            <li><strong>Pendant les vacances scolaires 📅</strong> : Des horaires spéciaux avec des activités encore plus fun !</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Comment Nous Rejoindre ? 📞📧</h2>
+        <p>Tu souhaites t'inscrire ou avoir plus d'informations ? C'est très simple !</p>
+        <p><strong>Téléphone 📱</strong> : 06 09 18 42 36</p>
+        <p><strong>Email 📧</strong> : <a href="mailto:club.ado@saintjust34.com">club.ado@saintjust34.com</a></p>
+        <p>N'attends plus, viens rejoindre une équipe d'ados super sympas et plein de projets à partager !</p>
+    </section>
+
+    <section>
+        <h2>Nos Valeurs 💙</h2>
+        <p>Le <strong>Club Ado de Saint-Just</strong> est fondé sur des valeurs fortes : <strong>l'amitié</strong>, le <strong>respect</strong> et la <strong>solidarité</strong>. Notre objectif est de créer un environnement où chaque jeune se sent respecté, écouté et soutenu dans ses projets.</p>
+    </section>
+
+    <section>
+        <h2>Rejoins-nous dès maintenant ! 🎉</h2>
+        <p>Si tu cherches un endroit où t'amuser, faire de nouvelles rencontres et découvrir de nouvelles passions, le <strong>Club Ado de Saint-Just</strong> est fait pour toi !</p>
+        <p>Viens vivre des moments inoubliables et partager des souvenirs qui dureront toute une vie. 😊</p>
+    </section>
 
     <footer>
         <p>&copy; 2025 Club Ado de Saint-Just | Tous droits réservés</p>
